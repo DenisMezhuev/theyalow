@@ -10,23 +10,19 @@ header{
     
 }
 nav{
-    width: 1020px;
-    height: 60px;
     border: 1px solid red;
-    margin: 90px 140px 0 140px;
-    
-    
+    margin: 70px 140px 0 0;
+    float: right; 
 }
 #logo{
     float: left;
-    
+    margin: 29px 0 0 140px;
 }
 #menu{
     float: right;
     background-color: #f5c506;
     height: 50px;
-    width: 450px;
-   
+    width: 450px; 
 box-shadow: -3.5px -4.6px 0px 1px rgba(245,197,6,0.5), -8.6px -10.6px 0px 0.5px rgba(245,197,6,0.2);
 }
 #menu ul li{

@@ -1,4 +1,5 @@
 @import url("css/normalize.css");
+@import url("assets/font/fonts.css");
 
 
 header{
@@ -10,12 +11,12 @@ header{
     
 }
 #menu::after,
-#logo::after,
+#logo::after
 {
     clear: both;
 }
 nav{
-    border: 1px solid red;
+    
     margin: 70px 140px 0 0;
     float: right; 
 }
@@ -26,34 +27,62 @@ nav{
 #menu{
     float: right;
     background-color: #f5c506;
-    height: 50px;
-    width: 450px; 
+    height: 43px;
+    width: 454px; 
 box-shadow: -3.5px -4.6px 0px 1px rgba(245,197,6,0.5), -8.6px -10.6px 0px 0.5px rgba(245,197,6,0.2);
+    position: relative;
 }
 #menu ul li{
     float: left;
     display: block;
     font-size: 17.05px;
-    color: #9b7d08;   
+    font-family: 'Segoe WP';
+     
+   
+    
    
 }
 
-a{
+#menu a{
     text-decoration: none;
     color: #9b7d08;
+   
+}
+#menu a:hover{
+    text-decoration: underline;
 }
 
 #menu ul li:nth-child(1){
     background: url(assets/images/about.png) no-repeat left center;
-    padding: 0 31px 0 31px;
+    padding: 0 37px 0 30px;
+    height: 20px;
+    
 }
 #menu ul li:nth-child(2){
     background: url(assets/images/Services.png) no-repeat left center;
-    padding: 0 31px 0 31px;
+    padding: 0px 37px 0 28px;
+    height: 20px;
+    
 }
 
 #menu ul li:nth-child(3){
     background: url(assets/images/contact.png) no-repeat left center;
-    padding-left: 31px;
+    padding-left: 35px;
 }
+
+
+#menu ul li span{
+    
+    position: absolute;
+  top: 0;
+  
+ }
+ #menu .span1{
+     left: 168px;
+ }
+ #menu .span2{
+    right: 146px;
+}
+ 
+
 

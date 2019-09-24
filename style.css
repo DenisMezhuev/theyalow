@@ -5,13 +5,14 @@
 header{
     height: 568px;
     width: 1300px;
-    border: 1px solid red;
     margin: auto;
     background-image: url(assets/images/header.jpg); 
     
 }
-#menu::after,
-#logo::after
+#header{
+    height: 167px;
+}
+#header::after
 {
     clear: both;
 }
@@ -37,10 +38,6 @@ box-shadow: -3.5px -4.6px 0px 1px rgba(245,197,6,0.5), -8.6px -10.6px 0px 0.5px 
     display: block;
     font-size: 17.05px;
     font-family: 'Segoe WP';
-     
-   
-    
-   
 }
 
 #menu a{
@@ -83,6 +80,27 @@ box-shadow: -3.5px -4.6px 0px 1px rgba(245,197,6,0.5), -8.6px -10.6px 0px 0.5px 
  #menu .span2{
     right: 146px;
 }
+ .player{
+     height: 397px;
+     width: 100%;
+    border: 1px solid red;
+ }
+ .rio{
+     margin-left: 149px;
+   position: relative;
+   width: 549px;
+   height: 327px;
+ }
+.rio .after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+     background:  rgba(245,197,6, 0.11);
+}
+.rio:hover .after{
+    display: none;
+}
  
-
 

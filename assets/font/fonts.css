@@ -2,3 +2,7 @@
   font-family: "Segoe WP";
   src: url(SegoeWP.ttf) format("truetype");  
 }
+@font-face{
+  font-family: Asap Regular;
+  src: url(Asap/Asap-Regular.ttf) format("truetype"); 
+}

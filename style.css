@@ -25,6 +25,7 @@ nav{
     float: left;
     margin: 29px 0 0 140px;
 }
+
 #menu{
     float: right;
     background-color: #f5c506;
@@ -83,13 +84,15 @@ box-shadow: -3.5px -4.6px 0px 1px rgba(245,197,6,0.5), -8.6px -10.6px 0px 0.5px 
  .player{
      height: 397px;
      width: 100%;
-    border: 1px solid red;
+    
+    position: relative;
  }
  .rio{
      margin-left: 149px;
    position: relative;
    width: 549px;
    height: 327px;
+   
  }
 .rio .after{
     position: absolute;
@@ -99,8 +102,56 @@ box-shadow: -3.5px -4.6px 0px 1px rgba(245,197,6,0.5), -8.6px -10.6px 0px 0.5px 
     height: 100%;
      background:  rgba(245,197,6, 0.11);
 }
-.rio:hover .after{
+ .rio:hover .after{
     display: none;
 }
+
+
+.play{
+    position: absolute;
+    top: 127px;
+    left: 243px;
+}
+.play:active {
+    opacity: 0.1;
+   
+}
+.player-img{
+    position: absolute;
+    bottom: 21px;
+    left: 28px;
+}
+.arrow-right, .arrow-left{
+    position: absolute;
+    bottom: 209px;
+}
+.arrow-right{
+left: 1267px;
+}
+.arrow-left{
+    background-color: #f5c506;
+}
+.arrow-right:hover, .arrow-left:hover{
+    opacity: 0.71;
+}
+.header_text{
+    position: absolute;
+    top: 114px;
+    left: 761px;
+}
+
+.cool{
+    color: #f5c506;
+    text-align: center;
+}
+.minimal{
+    color: #fff;
+}
+
+.cool, .minimal{
+    font-family: 'Asap Regular';
+    font-size: 63.05px;
+}
+
  
 

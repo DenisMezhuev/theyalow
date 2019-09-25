@@ -6,3 +6,8 @@
   font-family: Asap Regular;
   src: url(Asap/Asap-Regular.ttf) format("truetype"); 
 }
+@font-face{
+  font-family: "SegoeUI";
+  src: url(segoe/SegoeUI.ttf) format("truetype"); 
+  src: url(segoe/SegoeUIBold.ttf) format("truetype");
+}

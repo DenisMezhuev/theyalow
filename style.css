@@ -295,3 +295,8 @@ left: 1267px;
     margin: 0 0 10px 30px;
 
 }
+.scroll{
+    position: absolute;
+    bottom: 21.4px;
+    left: 212px;
+}

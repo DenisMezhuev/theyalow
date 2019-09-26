@@ -11,3 +11,7 @@
   src: url(segoe/SegoeUI.ttf) format("truetype"); 
   src: url(segoe/SegoeUIBold.ttf) format("truetype");
 }
+@font-face{
+  font-family: "OpenSans";
+  src: url(Open_Sans/OpenSans-Regular.ttf) format("truetype"); 
+}

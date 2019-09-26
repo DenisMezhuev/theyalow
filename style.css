@@ -300,3 +300,42 @@ left: 1267px;
     bottom: 21.4px;
     left: 212px;
 }
+section {
+    height: 493px;
+    width: 100%;
+    border: 1px solid cyan;
+    background: url(assets/images/sectionB.png);
+    position: relative;
+}
+.section__img{
+    position: absolute;
+    top: 93px;
+    left: 136px;
+}
+.section__ul{
+    position: absolute;
+    right: 140px;
+    top: 186px;
+    font-family: "OpenSans";
+    font-size: 22px;
+    color: #a4a4a2;
+    width: 400px;
+
+    
+}
+.section__ul li{
+    list-style-type: none;
+}
+.section__ul ul li{
+    padding-left: 29px;
+    background: url(assets/images/elipse.png) no-repeat 0 8px;
+}
+.section__ul ul li:nth-child(1){
+    margin-bottom: 31px; 
+}
+.section__ul ul li:nth-child(2){
+    margin-bottom: 22px; 
+}
+.section__ul ul li:nth-child(3){
+    margin-bottom: 35px; 
+}

@@ -15,3 +15,7 @@
   font-family: "OpenSans";
   src: url(Open_Sans/OpenSans-Regular.ttf) format("truetype"); 
 }
+@font-face{
+  font-family: "PTSans";
+  src: url(PT_Sans/PTSans-Regular.ttf) format("truetype"); 
+}
